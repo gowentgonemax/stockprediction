@@ -17,7 +17,7 @@ import chromedriver_binary
 
 def getStocks(n):
     url = r"https://finance.yahoo.com/screener/predefined/aggressive_small_caps?offset=0&count=202"
-    driver = webdriver.chrome()
+    driver = webdriver.Chrome()
     driver.get(url)
     stock_list = []
     n +=1
